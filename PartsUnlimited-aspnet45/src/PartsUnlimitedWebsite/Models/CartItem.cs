@@ -5,7 +5,12 @@ namespace PartsUnlimited.Models
 {
     public class CartItem : ILineItem
     {
+<<<<<<< HEAD
        // This is my Second project change.        [Key]
+=======
+       // This is my first project change.
+        [Key]
+>>>>>>> 49984ae78668fde291d057d0ac84119da00c8589
         public int CartItemId { get; set; }
 
         [Required]
